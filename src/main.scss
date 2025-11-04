@@ -1,0 +1,40 @@
+@use './variables.scss' as var;
+* {
+    --bs-body-text-align: center;
+    text-align: var(--bs-body-text-align);
+}
+html, body {
+    padding: var.$zero;
+    margin: var.$zero;
+    background-color: #656e5d;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    header, nav, footer {
+        width: 100%;
+        color: var.$white;
+    }
+    nav, header {
+         background-color: transparent;
+    }
+    section {
+        width: 80%;
+        margin: var.$zero auto;
+        border-radius: 9px;
+        border-width: 1px;
+    }
+    footer {
+        background-color: #353535;
+        position: fixed;
+        padding: 10px 0;
+        bottom: var.$zero;
+        left: var.$zero;
+    }
+}
+#logo {
+    width: 10%;
+}
+input {
+    height: 4vh;
+    margin: 13px 0;
+    background-color: var.$white !important;
+}

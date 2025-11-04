@@ -1,19 +1,42 @@
 {
-  "name": "app-signos-react",
+  "name": "app-signos",
   "version": "0.1.0",
+  "description": "app reat(CRA)",
+  "main": "index.js",
+  "author": "Bruno Gressler da Silveira",
+  "license": "ISC",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bruno0751/app-signos.git"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.8",
+    "date-fns": "^4.1.0",
+    "jquery": "^3.7.1",
     "react": "^19.2.0",
+    "react-datepicker": "^8.8.0",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4",
     "react-scripts": "5.0.1",
+    "sass": "^1.93.2",
+    "sass-loader": "^16.0.6",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "app",
+    "reat",
+    "CRA"
+  ],
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --open",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
