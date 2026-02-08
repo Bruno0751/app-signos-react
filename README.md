@@ -1,5 +1,20 @@
-# app-name: app-signos-react
+# app-signos-react
 
-# create-app: npx create-react-app nome-do-app
+## Sobre este app
+- este app usa a cra create-react-app
 
-# start-app: npm run start
+ - Para cria use
+
+        npx create-reat-app <app name>
+        ou
+        yarn crete-react-app <app name>
+- para executar use
+
+        npm run start
+
+<img src="/public/js.png"
+     alt="JavaScript"
+     width="200">
+<img src="/public/logo512.png"
+     alt="ReatJS"
+     width="200">
