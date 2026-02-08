@@ -12,14 +12,14 @@
 
         npm run start
 <img src="/public/html.png"
-     alt="JavaScript"
+     alt="Html"
      width="200">
 <img src="/public/js.png"
-     alt="JavaScript"
+     alt="Java Script"
      width="200">
 <img src="/public/sass.png"
-     alt="JavaScript"
+     alt="Sass"
      width="200">
 <img src="/public/logo512.png"
-     alt="ReatJS"
+     alt="Reat"
      width="200">
